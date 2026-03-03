@@ -1,0 +1,22 @@
+{
+  "name": "twilio-voice-socketio-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "form-data": "^4.0.0",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.11.5",
+    "socket.io": "^4.7.5",
+    "twilio": "^5.3.5"
+  }
+}
+
